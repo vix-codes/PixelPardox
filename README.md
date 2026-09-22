@@ -7,7 +7,7 @@
   - **Question Creator & Editor Form**: Allows the admin to input Question Text, 4 choices (Option A, Option B, Option C, Option D), designate the correct choice (A, B, C, or D), configure points and order numbers.
   - **Question Directory**: Live list showing question cards with the correct answer highlighted with a checkmark badge. Supports in-place editing and instant deletion.
   - **Curated Question Seeding**: Added `⚡ Seed 20 Curated Questions` button to pre-populate 20 competition-ready AI, GAN, and deepfake questions tailored to the symposium theme *"LOGIN 2026: The Last Human"*.
-  - **Clear All Questions**: Added safety-confirmed button to wipe and re-import questions if needed.
+  - **Clear All Questions**: Added safety-confirmed button to wipe and re-import questions if needed.👍
 
 ### 2. Backend Admin Quiz Endpoints (`AdminQuizController.java` & `GameService.java`)
 - `GET /api/admin/quiz` — Retrieve all questions in sequential order.
